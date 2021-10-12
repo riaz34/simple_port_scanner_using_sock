@@ -17,4 +17,4 @@ for port in range(low, high+1):
   if (status==0):
     print('port:',port,'*open*')
   else:
-    print('port:',port'closed :)')
+    print('port:',port,'closed :)')
