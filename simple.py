@@ -18,3 +18,4 @@ for port in range(low, high+1):
     print('port:',port,'*open*')
   else:
     print('port:',port,'closed :)')
+  s.close()
