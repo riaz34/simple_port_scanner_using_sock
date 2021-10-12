@@ -10,7 +10,7 @@ high=int(port_rg.split('-')[1])
 print('########################################################################')
 print('target ip:',target,'scanning start from:',low,' scanning end at: ',high)
 print('########################################################################')
-print('/n/n')
+print('\n')
 for port in range(low, high+1):
   s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   status=s.connect_ex((target,port))
